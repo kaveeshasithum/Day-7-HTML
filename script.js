@@ -1,3 +1,3 @@
 function clickme() {
-    console.log("Button clicked!");
+    console.log(document.getElementById("txtsample").value);
 }
