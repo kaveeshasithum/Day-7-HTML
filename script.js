@@ -20,7 +20,7 @@ function clickme() {
     let num2=parseInt(txtvalue2);
     let sum=num1+num2;
 
-    console.log(sum);
+    // console.log(sum);
     document.getElementById("lblsection").innerHTML = "<h1>"+sum+"</h1>";
     clhistory.push(txtvalue + "+" + txtvalue2 + "=" + sum);
 //console.log(document.getElementById("txtsample").value);
@@ -40,7 +40,7 @@ let txtvalue=document.getElementById("txtsample").value;
     let num2=parseInt(txtvalue2);
     let sub=num1-num2;
 
-    console.log(sub);
+    // console.log(sub);
     document.getElementById("lblsection").innerHTML = "<h1>"+sub+"</h1>";
     clhistory.push(txtvalue + "-" + txtvalue2 + "=" + sub);
 
@@ -52,6 +52,7 @@ rowdata();
 function rowdata() {
     for (let i=0; i<clhistory.length; i++) {
         document.getElementById("lblsection").innerHTML += "<h1>"+clhistory[i]+"</h1>";
-    }   
+    }  
+    console.log(clhistory); 
 
 }
