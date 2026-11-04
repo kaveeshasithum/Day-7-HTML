@@ -11,10 +11,17 @@ body {
     height: 45px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 100px;
     padding: 0 15px;
     font-size: 14px;
     background-color: #f3f3f3;
+}
+.text{
+    size: 100px;
+    font-weight: 600;
+    font-size: 50px;
+    font-weight: 500;
+    color: #202020;
 }
 
 /* Main Container */
@@ -60,7 +67,7 @@ body {
 
 /* Display */
 .display {
-    height: 150px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -71,7 +78,7 @@ body {
 
 .expression {
     width: 100%;
-    min-height: 25px;
+    min-height: 185px;
     text-align: right;
     color: #666;
     font-size: 18px;

@@ -48,4 +48,3 @@ function inputNumber0() {
     let txtvalue=document.getElementById("expression").value;
     document.getElementById("expression").value = txtvalue + "0";
 }
-function 
