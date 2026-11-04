@@ -15,14 +15,9 @@
 
         <div class="calculator">
 
-        
+            <input type="text" id="expression" class="expression">
 
-            <div class="display">
-                <div class="expression" id="expression"></div>
-                <div class="result" id="result">0</div>
-            </div>
 
-   
             <div class="buttons">
 
                 <button onclick="percentage()">%</button>
@@ -30,25 +25,25 @@
                 <button onclick="clearAll()">C</button>
                 <button onclick="backspace()">⌫</button>
 
-                <button onclick="inputNumber('7')">7</button>
-                <button onclick="inputNumber('8')">8</button>
-                <button onclick="inputNumber('9')">9</button>
-                <button class="operator" onclick="chooseOperator('*')">×</button>
+                <button onclick="inputNumber7()">7</button>
+                <button onclick="inputNumber8()">8</button>
+                <button onclick="inputNumber9()">9</button>
+                <button class="operator" onclick="multiplie('*')">×</button>
 
-                <button onclick="inputNumber('4')">4</button>
-                <button onclick="inputNumber('5')">5</button>
-                <button onclick="inputNumber('6')">6</button>
-                <button class="operator" onclick="chooseOperator('-')">−</button>
+                <button onclick="inputNumber4()">4</button>
+                <button onclick="inputNumber5()">5</button>
+                <button onclick="inputNumber6()">6</button>
+                <button class="operator" onclick="miners('-')">−</button>
 
-                <button onclick="inputNumber('1')">1</button>
-                <button onclick="inputNumber('2')">2</button>
-                <button onclick="inputNumber('3')">3</button>
-                <button class="operator" onclick="chooseOperator('+')">+</button>
+                <button onclick="inputNumber1()">1</button>
+                <button onclick="inputNumber2()">2</button>
+                <button onclick="inputNumber3()">3</button>
+                <button class="operator" onclick="subs('+')">+</button>
 
                 <button onclick="toggleSign()">+/−</button>
-                <button onclick="inputNumber('0')">0</button>
+                <button onclick="inputNumber0()">0</button>
                 <button onclick="inputDecimal()">.</button>
-                <button class="equal" onclick="calculate()">=</button>
+                <button class="equal" onclick="equal()">=</button>
 
             </div>
 
@@ -75,4 +70,3 @@
 </body>
 
 </html>
-
